@@ -1,0 +1,16 @@
+<!-- NOTE:  Using the 'no-controller-as alias prefix' $scope method -->
+
+<div class="card" title="{{header}}">
+  <h2 class="h3">{{header}}</h2>
+  <p>{{description}}</p>
+</div>
+
+
+<!-- The alternate would be ...
+
+<div class="card" title="{{card.header}}">
+  <h2 class="h3">{{card.header}}</h2>
+  <p>{{card.description}}</p>
+</div>
+
+... assuming the directive's 'controllerAs' is set to 'card' -->
